@@ -1,4 +1,4 @@
-# This code unrotate or deskew after cropping using perspective transform based on having 4 coordinate values to address them
+# This code skew or deskew using perspective transform based on having 4 coordinate values to address them
 
 
 import numpy as np
@@ -42,18 +42,18 @@ def four_point_transform(image, pts):
         [maxWidth - 1, maxHeight - 1],
         [0, maxHeight - 1]], dtype="float32")
 
-    aM = cv2.getPerspectiveTransform(rect, dst)
+    M = cv2.getPerspectiveTransform(rect, dst)
     warped = cv2.warpPerspective(image, M, (maxWidth, maxHeight))
 
     return warped
 
-# this part is for rotating the image based on the value of m or n. Please modify m and n in line 54
+# this part is for skewing the image based on the value of m or n. If m!=0 and n=0 then image will be skewed toward left or right. If n!=0 and m=0 then image will be skewed toward top and bottom. Please modify m and n in line 71 and 72 accordingly.
 
 
 def trans(image, m, n):
     h, w = image.shape[:2]
     # Arguments m ,n are highly depndent on size and rotation of image and should be modified accordingly
-    pts = np.array([(0, n), (w, m), (w-n, h), (0, h-m)], dtype="float32")
+    pts = np.array([(0, n), (w, n), (w-m, h), (m, h-n)], dtype="float32")
     warped = four_point_transform(image, pts)
     return warped
 
@@ -68,8 +68,8 @@ for root, dirs, files in os.walk(sys.argv[1]):
         (h, w) = image.shape[:2]
        # you can resize your image in line 70 if you need to.
        # image = cv2.resize(image, (int(w/10), int(h/10)))
-        m = 18
-        n = 15
+        m = -90
+        n = 0
         (h, w) = image.shape[:2]
        # Arguments m ,n should be modified
         warped = trans(image, m, n)

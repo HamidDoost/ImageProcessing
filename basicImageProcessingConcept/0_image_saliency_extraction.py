@@ -1,5 +1,5 @@
 '''
-saliant
+This code is for image saliancy extraction.
 '''
 import cv2
 import sys

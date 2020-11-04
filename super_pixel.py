@@ -1,8 +1,12 @@
-
-
 '''
-Extract Super Pixels of images to obtain boundaries of SLIC segmnetation.
-In fact, finds keypoints for SLIC segmentation.
+===============================================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 05/11/2020
+-- Description:	This code is for extracting Super Pixels of images to obtain
+				boundaries of SLIC segmnetation.
+				In fact, finds keypoints for SLIC segmentation.
+-- Status:      In progress
+================================================================================
 '''
 
 import cv2

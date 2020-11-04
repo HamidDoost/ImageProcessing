@@ -1,5 +1,10 @@
 '''
-corners
+======================================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 29/10/2020
+-- Description:	This code is for extracting of corners from an image.
+=======================================================================
+
 '''
 import cv2
 import sys

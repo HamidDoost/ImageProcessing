@@ -1,3 +1,11 @@
+'''
+===============================================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 05/11/2020
+-- Description:	This code is for removing black background of an image. 
+-- Status:      In progress
+================================================================================
+'''
 
 import cv2
 import sys

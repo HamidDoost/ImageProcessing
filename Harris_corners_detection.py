@@ -1,7 +1,12 @@
 '''
-Harris corners detection
-'''
+=====================================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 05/11/2020
+-- Description:	This code is for corners detection by Harris method
+-- Status:      In progress
+=====================================================================
 
+'''
 
 import cv2
 import os

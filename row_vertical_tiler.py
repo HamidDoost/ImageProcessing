@@ -1,7 +1,13 @@
+'''
+===============================================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 05/11/2020
+-- Description:	This code is for vertical tiling of images. 
+-- Status:      In progress
+================================================================================
+'''
 
-'''
-rows vertical tiler
-'''
+
 from imutils import paths
 import numpy as np
 import cv2

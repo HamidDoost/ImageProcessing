@@ -1,5 +1,11 @@
 '''
-This code is for image saliancy extraction.
+============================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 05/11/2020
+-- Description:	This code is for extracting image saliancy.
+-- Status:      In progress
+=============================================================
+
 '''
 import cv2
 import sys

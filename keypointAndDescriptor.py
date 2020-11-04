@@ -1,5 +1,13 @@
+'''
+==================================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 29/10/2020
+-- Description:	This code obtains keypoints from an RGB image 
+                and extracts descriptors based on keypoints.
+==================================================================
 
-# This code obtains keypoints from an RGB image and extract descriptor based on keypoints.
+'''
+
 
 import cv2
 import sys

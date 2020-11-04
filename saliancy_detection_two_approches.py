@@ -1,6 +1,12 @@
 '''
-SALIANCY detection
+===============================================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 05/11/2020
+-- Description:	This code is for Saliancy detection by two approcahes. 
+-- Status:      In progress
+================================================================================
 '''
+
 import sys
 import os
 import cv2

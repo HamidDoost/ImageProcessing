@@ -1,4 +1,14 @@
-# Reduce thecolor rage to three channels of RGB with maximum filter
+'''
+===============================================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 29/10/2020
+-- Description:	This code is for reducing the colour range to three channels 
+                of RGB with maximum filter.
+                It can be used for filtering colours.
+-- Status:      In progress
+================================================================================
+'''
+
 
 import cv2
 import sys

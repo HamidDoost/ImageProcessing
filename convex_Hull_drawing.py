@@ -1,6 +1,12 @@
 '''
-This code is for drawing and extractig Convex Hull contour.
-Convex Hull Contour is a connected contour.
+=============================================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 05/11/2020
+-- Description:	This code is for drawing and extractig Convex Hull contour. 
+                Convex Hull Contour is a connected contour.
+-- Status:      In progress
+==============================================================================
+
 '''
 
 import cv2

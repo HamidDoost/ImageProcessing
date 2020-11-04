@@ -1,4 +1,11 @@
-# This code skew or deskew using perspective transform based on having 4 coordinate values to address them
+'''
+===============================================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 28/10/2020
+-- Description:	This code is for skewing or deskewing using perspective 
+                transform based on having 4 coordinate values to address them. 
+================================================================================
+'''
 
 
 import numpy as np

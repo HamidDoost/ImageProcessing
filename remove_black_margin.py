@@ -1,7 +1,13 @@
 '''
-black margin removal
-need  rescale 1/10
+===============================================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 05/11/2020
+-- Description:	This code is for removing black margin of an image. 
+                It can be used for cropping margins of an image.
+-- Status:      In progress
+================================================================================
 '''
+
 import numpy as np
 import glob
 import cv2

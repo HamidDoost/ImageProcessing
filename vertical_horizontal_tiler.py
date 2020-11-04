@@ -1,6 +1,14 @@
+'''
+===============================================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 05/11/2020
+-- Description:	This code is for horizental or vertical tiling of images.
+                Parameters are Folder name and Number of tiles.
+                It works better on original scale images.
+-- Status:      In progress
+================================================================================
+'''
 
-#::::::  tiler  is the  code for making horizontal or vertical tiles, Parameters are Folder name and Number of tiles.
-#::::::  BETTER WORKS ON ORIINAL SCALE
 
 from imutils import paths
 import numpy as np

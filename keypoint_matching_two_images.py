@@ -1,7 +1,15 @@
-# keypoint matching between two files
+'''
+============================================================
+-- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Create date: 05/11/2020
+-- Description:	This code is for keypoint matching between two files
+-- Status:      In progress
+=============================================================
+
+'''
+
 
 def akaze_match(im1, im2):
-    # load the image and convert it to grayscale
     # im1 = cv2.imread(im1_path)
     # im2 = cv2.imread(im2_path)
     hb, wb = im1.shape[:2]
@@ -11,8 +19,6 @@ def akaze_match(im1, im2):
 
     gray1 = cv2.cvtColor(im1, cv2.COLOR_BGR2GRAY)
     gray2 = cv2.cvtColor(im2, cv2.COLOR_BGR2GRAY)
-    # initialize the AKAZE descriptor, then detect keypoints and extract
-    # local invariant descriptors from the image
     detector = cv2.AKAZE_create()
     (kps1, descs1) = detector.detectAndCompute(gray1, None)
     (kps2, descs2) = detector.detectAndCompute(gray2, None)

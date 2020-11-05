@@ -1,6 +1,6 @@
 '''
 ===============================================================================
--- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Author:      Hamid Doostmohammadi, Azadeh Nazemi
 -- Create date: 05/11/2020
 -- Description:	This code is for extracting Super Pixels of images to obtain
 				boundaries of SLIC segmnetation.

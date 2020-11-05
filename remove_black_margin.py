@@ -1,6 +1,6 @@
 '''
 ===============================================================================
--- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Author:      Hamid Doostmohammadi, Azadeh Nazemi
 -- Create date: 05/11/2020
 -- Description:	This code is for removing black margin of an image. 
                 It can be used for cropping margins of an image.

@@ -1,6 +1,6 @@
 '''
 ===============================================================================
--- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Author:      Hamid Doostmohammadi, Azadeh Nazemi
 -- Create date: 05/11/2020
 -- Description:	This code is for horizental or vertical tiling of images.
                 Parameters are Folder name and Number of tiles.

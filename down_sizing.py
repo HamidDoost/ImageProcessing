@@ -1,6 +1,6 @@
 '''
 ==================================================================
--- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Author:      Hamid Doostmohammadi, Azadeh Nazemi
 -- Create date: 05/11/2020
 -- Description:	This code is for resizing/rescaling  many images. 
                 This can be used for trainning in ML.

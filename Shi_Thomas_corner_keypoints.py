@@ -1,6 +1,6 @@
 '''
 ===============================================================================
--- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Author:      Hamid Doostmohammadi, Azadeh Nazemi
 -- Create date: 05/11/2020
 -- Description:	This code is for detection of corners keypoints by Shi-Thomas method. 
 -- Status:      In progress

@@ -1,6 +1,6 @@
 '''
 ===============================================================================
--- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Author:      Hamid Doostmohammadi, Azadeh Nazemi
 -- Create date: 29/10/2020
 -- Description:	This code is for reducing the colour range to three channels 
                 of RGB with maximum filter.

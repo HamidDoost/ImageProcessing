@@ -1,6 +1,6 @@
 '''
 ====================================================================================
--- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Author:      Hamid Doostmohammadi, Azadeh Nazemi
 -- Create date: 28/10/2020
 -- Description:	This code is for splitting and merging edge by Canny Detection.
                 Edges from this code can be used for Laplacian and Sobel Combined.

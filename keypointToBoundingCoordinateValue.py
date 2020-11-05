@@ -1,6 +1,6 @@
 '''
 =======================================================================
--- Author:		Hamid Doostmohammadi, Azadeh Nazemi
+-- Author:      Hamid Doostmohammadi, Azadeh Nazemi
 -- Create date: 29/10/2020
 -- Description:	This code extract keypoints from KAZE function. 
                 It can be converted to boundary box coordinate value.
